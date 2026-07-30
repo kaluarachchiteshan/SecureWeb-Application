@@ -1,0 +1,11 @@
+{
+  "name": "secureweb-platform",
+  "version": "1.0.0",
+  "description": "SecureWeb Cybersecurity & Web Application Monitoring Platform",
+  "scripts": {
+    "dev": "node -e \"const { spawn } = require('child_process'); spawn('npm', ['run', 'dev'], { cwd: './backend', stdio: 'inherit', shell: true }); spawn('npm', ['run', 'dev'], { cwd: './frontend', stdio: 'inherit', shell: true });\"",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "start": "npm start --prefix backend"
+  }
+}
