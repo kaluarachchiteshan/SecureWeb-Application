@@ -7,6 +7,14 @@ SecureWeb is a cybersecurity and web application monitoring platform built on th
 - **Backend:** Node.js, Express, MongoDB (Mongoose), JWT auth, Helmet, express-rate-limit, PDFKit
 - **Frontend:** React 18, Vite, Tailwind CSS, React Router, Recharts, Axios
 
+## Security features
+
+- JWT-based authentication (`backend/middleware/authMiddleware.js`)
+- Password hashing with bcryptjs
+- HTTP security headers via Helmet
+- Request rate limiting with express-rate-limit
+- Centralised error handling (`backend/middleware/errorMiddleware.js`)
+
 ## Project structure
 
 ```
