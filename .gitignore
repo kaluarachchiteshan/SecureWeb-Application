@@ -4,3 +4,13 @@ dist/
 .env
 .env.*
 !.env.example
+
+# Build caches
+.vite/
+.cache/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
